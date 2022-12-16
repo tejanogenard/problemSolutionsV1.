@@ -53,3 +53,19 @@ Explanation: The array ans is formed as follows:
 - ans = [nums[0],nums[1],nums[2],nums[3],nums[0],nums[1],nums[2],nums[3]]
 - ans = [1,3,2,1,1,3,2,1]
 */
+
+var getConcatenation = function(nums) {
+    /* 
+        1. loop through the array and make a copy of every element into a new array
+        2. Concatenate the new array to the old one 
+        3. return the two combined arrays together. 
+    */
+        double = []
+
+        for (let i=0; i < nums.length; i++){
+            double.push(nums[i])
+            console.log(double)
+        }
+
+        return array3 = nums.concat(double);
+};
